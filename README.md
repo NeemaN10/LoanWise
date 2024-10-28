@@ -1,8 +1,9 @@
-Here's a sample `README.md` file for your **LoanWise** project on GitHub:
+# LoanWise
+
 
 <img width="395" alt="image" src="https://github.com/user-attachments/assets/b8c1cc3f-eb71-4ba4-8902-39bf905a145e">
 
-# LoanWise
+
 **Instant Loan Eligibility Checks at Your Fingertips**
 
 ## About the Project
