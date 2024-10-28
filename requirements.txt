@@ -1,0 +1,4 @@
+Flask
+joblib
+scikit-learn==1.2.2
+numpy==1.26.4

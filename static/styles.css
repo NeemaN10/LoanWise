@@ -1,0 +1,246 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background: rgba(138, 143, 185,1);
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    ;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px;
+    left: 30px;
+    font-family: Josefin Sans;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding-left: 60px;
+}
+
+.language a {
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background: #fff;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 91%;
+}
+.about p {
+    font: lato;
+    font-weight: 400;
+    size: 24px;
+    line-height: 40px;
+    text-align: center;
+}
+.about h2 {
+    font: lato;
+    font-weight: 400;
+    size: 24px;
+    line-height: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    margin-bottom: -43.9px;
+
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.image-section, .text-section {
+    width: 50%;
+    padding: 50px;
+    font-family: lato;
+    
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.text-section p {
+    margin: 20px 0;
+    font-size: 60px;
+
+}
+
+.text-section button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+footer {
+   background: rgba(138, 143, 185,1);
+    color: #fff;
+    text-align: center;
+    padding-left: 20% ;
+    height: 260px;
+    padding-top: 25px;
+
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.column {
+    width: 30%;
+    text-align: left;
+}
+
+.column p {
+    margin: 10px 0;
+    color: black;
+}
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons span {
+    display: inline-block;
+    margin: 0 5px;
+    color: black;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(100% - 110px); /* Adjust width for button */
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(189, 210, 222);
+}
+
+button {
+    padding: 11.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #444;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+...................................
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+
+
+
+.form-container {
+    max-width: 80%;
+    margin: 20px auto;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-left: 20px ;
+    background: #fff;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group input{
+    padding: 10px;
+    width: 100%;
+}
+.form-group select {
+    padding: 10px;
+    width: 102.5%;
+}
+
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start; /* Align button to the left */
+}
+
+#prediction-result {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+}
